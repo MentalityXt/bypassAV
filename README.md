@@ -1,9 +1,11 @@
 # bypassAV
 分离免杀shellcodeloader 20250529有效 VT 2/71
+
 ![image](https://github.com/user-attachments/assets/e7023bcd-1cbf-449f-b4e7-0a24d6f338cb)
 
 静态火绒360卡巴wd都可以过
 动态WD需要将beacon.dll带入到shellcode当中,不然在通信过程中始终会被wd动态拦截
+
 ![image](https://github.com/user-attachments/assets/38bcd517-5b49-41c2-9d8a-207b1fc1acdd)
 
 
