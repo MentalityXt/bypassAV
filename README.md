@@ -1,3 +1,6 @@
+# 20250601
+360捕获了静态特征，源码编译后会直接被静态查杀，Releases会逐渐更新可用loader，使用方法不变，直到特征被完全捕获。
+
 # bypassAV
 分离免杀shellcodeloader 20250529有效 VT 2/71
 
@@ -19,8 +22,6 @@ WD动态
 ![image](https://github.com/user-attachments/assets/d634e2f1-118a-44b4-b526-e16d119a58be)
 
 这个项目不是很成熟 欠缺很多，比如反沙箱 反调试 延迟执行这些都没有做，需要的可以自己加或者去其他开源的免杀项目上copy一份加进去都行
-
-//360貌似对cout非常敏感 失效之后尝试把cout改成cerr可能是一个方法
 
 loader失效后不定期更新
 # 用法
