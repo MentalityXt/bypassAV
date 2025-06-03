@@ -2,7 +2,7 @@
 此项目为开源项目，仅提供与学习。请勿用于违法行为，造成的违法行为与本人无关。
 
 # 20250601
-360捕获了静态特征，源码编译后会直接被静态查杀，针对其他AV依然可用，Releases会逐渐更新可用loader，使用方法不变，直到特征被完全捕获。
+360捕获了静态特征，源码编译后会直接被静态查杀，针对其他AV依然可用，Releases会逐渐更新可过360的loader，使用方法不变，直到特征被完全捕获。
 
 # bypassAV
 分离免杀shellcodeloader 20250529有效 VT 2/71
@@ -13,7 +13,7 @@
 
 动态免杀WD需要将beacon.dll带入到shellcode当中，不然在通信过程中始终会被wd拦截，一般2-3个包请求到beacon.dll加载的时候直接报毒，可以自己抓包研究一下
 
-文件大了点但必须用下面这个code才能过
+动态免杀WD文件大了点但必须用下面这个code才能过，其他AV正常的code就可以过
 
 ![image](https://github.com/user-attachments/assets/38bcd517-5b49-41c2-9d8a-207b1fc1acdd)
 
