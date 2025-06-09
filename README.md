@@ -27,19 +27,25 @@ optional arguments:
                         包含shellcode的输入文件
 ```
 
-### 参数-r会生成随机的密钥 根据生成的随机密钥去修改C++文件中的密钥(不加该参数--默认密钥和IV就是C++文件当中的可直接使用)
+### python encrypt.py -r
+
+参数-r会生成随机的密钥 根据生成的随机密钥去修改C++文件中的密钥(不加该参数--默认密钥和IV就是C++文件当中的可直接使用)
 
 例如：
 
 ![image](https://github.com/user-attachments/assets/26ba561b-cd51-4622-9272-989fa35430c0)
 
-### 参数-i后面需要指定文件 比如从cs中生成的shellcode(不加该参数生成的shellcode默认为x64的calc)
+### python encrypt.py -i 1.bin
+
+参数-i后面需要指定文件 比如从cs中生成的shellcode(不加该参数生成的shellcode默认为x64的calc)
 
 例如：
 
 ![image](https://github.com/user-attachments/assets/a193a70a-6560-4a8c-a124-45763ce65b43)
 
-### 参数-o后面需要指定输出的文件名(默认输出为rundllUpdata.bin 需要在C++文件头部OUTPUT_FILE改成对应的)
+### python encrypt.py -o
+
+参数-o后面需要指定输出的文件名(默认输出为rundllUpdata.bin 需要在C++文件头部OUTPUT_FILE改成对应的)
 
 例如：
 
