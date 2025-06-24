@@ -11,6 +11,10 @@
 ### 20250619
 思路比较简单，AES加密shellcode，再用任何一种语言加载即可，仅此就可以过大部分杀软。
 
+但是CS的硬特征是没办法改的，shellcode加载没有任何问题，问题在于你后续的操作是否会被动态拦截，如果可以的话尽量换一个c2工具吧。
+
+至少能解决的shellcodeloader
+
 # 用法
 ```python
 python encrypt.py -h
